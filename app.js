@@ -27,7 +27,7 @@ const currentDate = () => {
         day: 'numeric'
     };
 
-    const fullDate = getDate.toLocaleDateString('en-AUS', options);
+    const fullDate = getDate.toLocaleDateString('locales', options);
 
 
 
