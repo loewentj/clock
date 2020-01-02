@@ -31,7 +31,7 @@ const currentDate = () => {
 
 
 
-    todaysDate.innerHTML = fullDate;
+    // todaysDate.innerHTML = fullDate;
 
 };
 
