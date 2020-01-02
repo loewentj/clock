@@ -10,17 +10,21 @@
 main .jumbotron .date{
     text-align: center;
     margin: 3rem auto;
-    font-size: 1.9rem;
-    color: darkmagenta;
+    font-size: 1.6rem;
+    color: rgb(241, 32, 213);
     font-weight: 600;
 }
 
 main .jumbotron{
-    background: radial-gradient(circle, rgba(28,238,34,1) 41%, rgba(36,4,4,1) 99%);
+    
+    background-color: #08AEEA;
+background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+
+    
 }
 main .jumbotron .clock{
     font-family: 'Audiowide', cursive;
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     text-align: center;
     color: darkblue;
     /* background: radial-gradient(circle, rgba(28,238,34,1) 41%, rgba(36,4,4,1) 99%); */
