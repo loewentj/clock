@@ -1,0 +1,38 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+main .jumbotron .date{
+    text-align: center;
+    margin: 3rem auto;
+    font-size: 1.9rem;
+    color: darkmagenta;
+    font-weight: 600;
+}
+
+main .jumbotron .clock{
+    font-family: 'Audiowide', cursive;
+    font-size: 1.6rem;
+    text-align: center;
+    color: darkblue;
+    background: radial-gradient(circle, rgba(28,238,34,1) 41%, rgba(36,4,4,1) 99%);
+}
+
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    main .jumbotron .date{
+        font-size: 4rem;
+    }
+
+    main .jumbotron .clock{
+        font-size: 3.6rem;
+    }
+}
